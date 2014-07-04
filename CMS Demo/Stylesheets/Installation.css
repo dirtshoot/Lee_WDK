@@ -1,0 +1,64 @@
+body{
+background-color: #FFFFFF;
+}
+
+#Installation_Headline{
+Font-family: verdana;
+Font-size: 12;
+padding-left: 30px;
+}
+
+#Installation_M_Top {
+Background-Image: url('../Images/Install_M_Top.jpg');
+Height:54px;
+Width: 700px;
+}
+
+#Installation_M_Center{
+Background-Image: url('../Images/Install_M_Center.jpg');
+Width: 700px;
+Padding-left: 20px;
+}
+
+#Installation_M_Bottom{
+Background-Image: url('../Images/Install_M_Bottom.jpg');
+Height:54px;
+Width: 700px;
+}
+
+#Menu_Header{
+Font-family: verdana;
+color: #FFFFFF;
+Font-Size: 14;
+Font-weight: bold;
+height: 35px;
+}
+
+#Menu_Content{
+Font-family: verdana;
+Color: #FFFFFF;
+Font-Size: 12;
+width: 160px;
+height: 30px;
+}
+
+#Menu_Content_Long{
+Font-family: verdana;
+Color: #FFFFFF;
+Font-Size: 10;
+}
+
+#Menu_inputbox{
+Font-family: verdana;
+background-color: 2728d0;
+border: 1px solid #000000;
+Color: #FFFFFF;
+}
+
+
+#Error{
+Font-family: verdana;
+Color: red;
+Font-Size: 10;
+Font-Weight: bold;
+}

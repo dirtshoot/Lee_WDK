@@ -1,0 +1,487 @@
+body{
+padding: 0px;
+margin: 0px;
+background-color: #c9c7c7;
+}
+
+#Spacer{
+height: 1px;
+}
+
+/* ============================================= */
+	/* Start of Homepage Stylesheet */
+/* ============================================= */
+#Homepage_Spacer{
+height: 40px;
+}
+
+#Homepage_iframe_Announcements{
+height: 250px;
+width: 520px;
+}
+
+#Announcement_Table{
+width: 100%;
+}
+
+	/* ============================================= */
+		/* Small Display */
+	/* ============================================= */
+	#Announcement_Table_h0{
+	background-image: url('Images/Annoucement_h0.png');
+	height: 30px;
+	width: 517px;
+	cursor: pointer;
+	}
+
+		#Announcement_SmallDisplay_Date{
+		position: absolute;
+		padding-left: 25px;
+		font-size: 10px;
+		font-family: verdana;
+		color: #FFFFFF;
+		}
+		
+		#Announcement_SmallDisplay_Title{
+		position: absolute;
+		left: 100px;
+		font-size: 10px;
+		font-family: verdana;
+		font-weight: bold;
+		color: #FFFFFF;
+		}
+		
+	/* ============================================= */
+		/* Expanded Display */
+	/* ============================================= */	
+	#Announcement_Table_h1{
+	background-image: url('Images/Annoucement_h1.png');
+	height: 45px;
+	width: 517px;
+	}
+
+	#Announcement_Table_h2{
+	background-image: url('Images/Annoucement_h2.png');
+	background-repeat: repeat-y;
+	width: 517px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 10px;
+	font-family: verdana;
+	color: #FFFFFF;
+	}
+
+	#Announcement_Table_h3{
+	background-image: url('Images/Annoucement_h3.png');
+	height: 20px;
+	width: 517px;
+	}
+
+		#Announcement_Date{
+		position: absolute;
+		padding-left: 58px;
+		font-size: 10px;
+		font-family: verdana;
+		color: #FFFFFF;
+		}
+		
+		#Announcement_Title{
+		position: absolute;
+		left: 142px;
+		font-size: 10px;
+		font-family: verdana;
+		color: #FFFFFF;
+		}
+		
+
+/* ============================================= */
+	/* Start of Menu Stylesheet */
+/* ============================================= */
+#Layout_Link_Menu{
+background-image: url('Images/Layout_Link_Menu.jpg');
+text-align: center;
+width: 100%;
+height: 28px;
+}
+
+#Layout_Link_Menu{
+text-align: -moz-center;
+width: 100%;
+height: 28px;
+}
+	
+#Links {
+background-image: url('Images/Layout_Link_Menu.jpg');
+width: 110px;
+height: 28px;
+}
+
+#Links  A:HOVER{
+background-image: url('Images/Layout_Link_Menu_Hover.jpg');
+width: 110px;
+height: 28px;
+}
+
+#Links:HOVER{
+background-image: url('Images/Layout_Link_Menu_Hover.jpg');
+}
+
+#Link_Spacer{
+padding-top: 4px;
+}
+	
+#Link_Text {
+vertical-align: TOP;
+font-size: 10px;
+font-family: verdana;
+text-decoration: none;
+text-align: center;
+color: #000000;
+}
+
+#Link_Text:link, A:link {
+vertical-align: TOP;
+font-size: 10px;
+font-family: verdana;
+text-decoration: none;
+color: #000000;
+}
+
+#Link_Text:visited, A:visited {
+vertical-align: TOP;
+font-size: 10px;
+font-family: verdana;
+text-decoration: none;
+text-align: center;
+color: #000000;
+}
+
+#Link_Text:hover, A:hover {
+font-size: 10px;
+font-family: verdana;
+text-decoration: none;
+color: #FFFFFF;
+}
+	
+/* ============================================= */
+	/* Start of layout Stylesheet */
+/* ============================================= */
+#Layout_Background_Head{
+background-image: url('Images/Layout_Background_Head.jpg');
+height: 100px;
+}
+
+#Layout_Background_Repeat{
+background-image: url('Images/Layout_Background_Repeat.jpg');
+width: 100%;
+height: 500px;
+}
+
+#Layout_Content_Menu_Home{
+background-image: url('Images/Layout_Content_Menu_Home.jpg');
+width: 850px;
+height: 500px;
+vertical-align: top;
+}
+
+#Layout_Content_Menu{
+background-image: url('Images/Layout_Content_Menu.jpg');
+width: 850px;
+height: 500px;
+vertical-align: top;
+}
+
+#Layout_Footer{
+Font-family: verdana;
+Font-size: 10px;
+Color: #000000;
+text-align: center;
+}
+
+#Page_Title{
+padding-left: 70px;
+padding-top: 12px;
+Font-family: verdana;
+Font-size: 12px;
+Color: #FFFFFF;
+Font-Weight: bold;
+}
+
+#Page_Content{
+padding-top: 20px;
+padding-left: 25px;
+Font-family: verdana;
+Font-size: 12px;
+Color: #FFFFFF;
+text-align: left;
+}
+
+#iframe{
+overflow-x: hidden; 
+overflow-y: auto;
+padding-top: 20px;
+}
+/* ============================================= */
+	/* Start of Members Page Stylesheet */
+/* ============================================= */
+#Members_Table_Header{
+border: solid 1px #000000;
+background-color: #dbe1f9;
+Font-family: verdana;
+Color: #000000;
+Font-size: 10px;
+padding-left: 4px;
+}
+
+#Members_Table_row{
+border: solid 1px #000000;
+background-color: #1b2fb6;
+Font-family: verdana;
+Font-size: 10px;
+Color: #FFFFFF;
+text-align: left;
+padding-left: 4px;
+}
+
+#Members_Table_sublinks{
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+text-decoration: none;
+}
+
+#Members_Page{
+padding-top: 10px;
+background-color: transparent;
+text-align: left;
+}
+
+#members_iframe{
+height: 360px;
+width: 800px;
+overflow-x: hidden; 
+overflow-y: auto;
+}
+
+/* ============================================= */
+	/* Start of Login Page Stylesheet */
+/* ============================================= */
+#Login_Page{
+background-color: transparent;
+text-align: left;
+padding-right: 25px;
+}
+
+#Login_Box{
+margin-left: 50px;
+margin-top: 20px;
+}
+
+#Login_Box_left_Table{
+Font-family: verdana;
+Font-size: 12px;
+Color: #FFFFFF;
+}
+
+#Error{
+Font-family: verdana;
+Color: red;
+Font-Size: 10;
+Font-Weight: bold;
+}
+
+/* ============================================= */
+	/* Start of Control Panel Stylesheet */
+/* ============================================= */
+
+#ControlPanel_Remove_Icon{
+border: 0px;
+background: transparent url('Images/Delete_14.png');
+Height: 14px;
+Width: 14px;
+}
+
+#ControlPanel_Edit_Icon{
+border: 0px;
+background: transparent url('Images/Edit_14.png');
+Height: 14px;
+Width: 14px;
+}
+
+#ControlPanel_Read_Icon{
+border: 0px;
+background: transparent url('Images/Read_14.png');
+Height: 14px;
+Width: 14px;
+}
+
+#ControlPanel{
+background-color: transparent;
+text-align: left;
+padding-right: 25px;
+}
+
+#ControlPanel_header {
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 12px;
+padding-left: 4px;
+
+}
+
+#ControlPanel_Body {
+background-color: transparent;
+vertical-align: top;
+text-align: left;
+height: 200px;
+padding-right: 25px;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+}
+
+#ControlPanel_footer{
+background-color: transparent;
+vertical-align: top;
+text-align: left;
+height: 40px;
+padding-right: 25px;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+}
+
+#ControlPanel_Icon_Wapper{
+padding-top: 20px;
+padding-left: 20px;
+}
+
+#ControlPanel_Icons {
+width: 70px;
+height: 70px;
+text-align: center;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+Text-Decoration: None;
+}
+
+#ControlPanel_Icons A:LINK{
+width: 70px;
+height: 70px;
+text-align: center;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+Text-Decoration: None;
+}
+
+#ControlPanel_Icons A:VISITED{
+width: 70px;
+height: 70px;
+text-align: center;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+Text-Decoration: None;
+}
+
+#ControlPanel_Icons A:HOVER{
+width: 70px;
+height: 70px;
+text-align: center;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+Text-Decoration: None;
+}
+
+#ControlPanel_SubCat_Icon{
+vertical-align: middle;
+}
+
+#ControlPanel_SubCat {
+width: 200px;
+text-align: left;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+Text-Decoration: None;
+padding-top: 2px;
+}
+
+#ControlPanel_SubCat A:LINK{
+width: 200px;
+text-align: left;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+Text-Decoration: None;
+}
+
+#ControlPanel_SubCat A:VISITED{
+width: 200px;
+text-align: left;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+Text-Decoration: None;
+}
+
+#ControlPanel_SubCat A:HOVER{
+width: 200px;
+text-align: left;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+Text-Decoration: None;
+}
+
+#ControlPanel_Row_Header{
+border: solid 1px #000000;
+background-color: #dbe1f9;
+Font-family: verdana;
+Color: #000000;
+Font-size: 10px;
+padding-left: 4px;
+}
+
+#ControlPanel_Row{
+border: solid 1px #000000;
+margin-top: 3px;
+background-color: #1b2fb6;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+padding-left: 4px;
+}
+
+#ControlPanel_Row_Active{
+border: solid 1px #000000;
+margin-top: 3px;
+background-color: #049c1a;
+Font-family: verdana;
+Color: #FFFFFF;
+Font-size: 10px;
+padding-left: 4px;
+}
+
+	/* ============================================= */
+		/* Control Panel Themes Page */
+	/* ============================================= */	
+	#ControlPanel_Themes_Thumbnail{
+	border: solid 1px #000000;
+	width: 100px;
+	height: 100px;
+	}
+	
+	#ControlPanel_Themes_Subbox{
+	width: 440px;
+	}
+	
+	#ControlPanel_Themes_infobox{
+	Font-family: verdana;
+	Color: #000000;
+	Font-size: 11px;
+	vertical-align: top;
+	}

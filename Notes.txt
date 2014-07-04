@@ -1,0 +1,12 @@
+Install 
+	Rename install folder when finshed.
+	
+Preferences
+	Announcements - Amount displayed (Limit)
+
+
+Homepage	
+
+		
+Edit / Create Pages:
+	Disable Page (inactive) remove link)
